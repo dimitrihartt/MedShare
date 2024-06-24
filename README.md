@@ -1,4 +1,11 @@
-# 🏗 Scaffold-ETH 2
+#  🏥 MedShare 👪
+
+<h4 align="center">
+  <a href="https://docs.shalomempire.com/">MedShare Documentation</a> |
+  <a href="https://medshare.shalomempire.com">MedShare Website</a>
+</h4>
+
+## 🏗 Built wiht Scaffold-ETH 2
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
