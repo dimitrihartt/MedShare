@@ -5,6 +5,8 @@
   <a href="https://medshare.shalomempire.com">MedShare Website</a>
 </h4>
 
+![MedShareFrontend](https://raw.githubusercontent.com/dimitrihartt/MedShare/main/packages/nextjs/public/medshare_frontend.png)
+
 ## 🏗 Built wiht Scaffold-ETH 2
 
 <h4 align="center">
