@@ -9,18 +9,18 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#93BBFB",
+          primary: "#039BE5",
           "primary-content": "#212638",
-          secondary: "#DAE8FF",
+          secondary: "#0288D1",
           "secondary-content": "#212638",
-          accent: "#93BBFB",
+          accent: "#FFA000",
           "accent-content": "#212638",
           neutral: "#212638",
           "neutral-content": "#ffffff",
           "base-100": "#ffffff",
-          "bamedshare00": "#f4f8ff",
+          "base-200": "#f4f8ff",
           "base-300": "#DAE8FF",
-          "base-content": "#212638",
+          "base-content": "#212638",          
           info: "#93BBFB",
           success: "#34EEB6",
           warning: "#FFCF72",
