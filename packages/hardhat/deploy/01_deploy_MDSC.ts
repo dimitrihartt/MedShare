@@ -8,7 +8,7 @@ import { Contract } from "ethers";
  *
  * @param hre HardhatRuntimeEnvironment object.
  */
-const deployUSDT: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
+const deployMDSC: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   /*
     On localhost, the deployer account is the one that comes with Hardhat, which is already funded.
 
@@ -22,7 +22,7 @@ const deployUSDT: DeployFunction = async function (hre: HardhatRuntimeEnvironmen
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
 
-  await deploy("USDT", {
+  await deploy("MDSC", {
     from: deployer,
     // Contract constructor arguments
     args: [deployer],
@@ -33,12 +33,12 @@ const deployUSDT: DeployFunction = async function (hre: HardhatRuntimeEnvironmen
   });
 
   // Get the deployed contract to interact with it after deploying.
-  const uSDT = await hre.ethers.getContract<Contract>("USDT", deployer);
-  console.log("👋 Initial balance:", await uSDT.balanceOf(deployer));
+  const mdsc = await hre.ethers.getContract<Contract>("MDSC", deployer);
+  console.log("👋 Initial balance:", await mdsc.balanceOf(deployer));
 };
 
-export default deployUSDT;
+export default deployMDSC;
 
 // Tags are useful if you have multiple deploy files and only want to run one of them.
 // e.g. yarn deploy --tags USDT
-deployUSDT.tags = ["USDT"];
+deployMDSC.tags = ["MDSC"];
